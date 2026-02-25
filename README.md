@@ -1,1 +1,9 @@
-# WBE-PINN
+## Influenza-Like Illness and Wastewater Surveillance Data Forecasting with Neural Networks and Mathematical Modeling Approaches (2026)
+
+The paper can found here: 
+
+## Abstract
+  Influenza trends have shifted following the COVID-19 pandemic, requiring continuous monitoring. Wastewater-based surveillance has reported influenza viral loads since 2023, offering a cost-effectiveness and high utilization. Although studies used mathematical models and neural networks for influenza predictions, models integrating both datasets remain uncommon. We aim to enhance transmission prediction accuracy by applying physics information in mathematical model integrating both datasets into deep learning.
+  We proposed a wastewater-based epidemiology physics-informed neural network (WBE-PINN) framework based on a susceptible-exposed-infectious-recovered-virus (SEIR-V) model to estimate epidemiological parameters by integrating influenza-like illness (ILI) and viral load in wastewater data. We defined six loss functions incorporating the SEIR-V model and epidemiological constraints and trained the model from week 10 of 2024 to week 14 of 2025. Uncertainty was quantified by sampling parameters from probability distributions during iterative training. Using this framework, we predicted future changes in ILI and viral load from week 15 to 30 of 2025 under various transmission scenarios.
+  WBE-PINN framework achieved RMSE values of 1.6804 for ILI and 1.2056 for viral load. This demonstrated higher overall estimation accuracy compared to the least squares method (ILI: 10.8796, viral load: 1.7424) and traditional PINN (ILI: 1.4888, viral load: 2.0672). The estimated median transmission rate was 1.2455 (interquartile range: 0.8122–2.1792). Future predictions aligned with a scenario where the transmission rate decreased by 0.7 times compared to the training period.
+  Proposed WBE-PINN improves estimation accuracy while effectively accounting for uncertainty. By identifying future dynamics through scenario-based forecasting, the framework demonstrates significant potential for informing influenza surveillance policies.
